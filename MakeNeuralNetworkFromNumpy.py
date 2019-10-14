@@ -43,7 +43,7 @@ if __name__ == '__main__':
     #and 1 output value
 
     training_set_inputs = array([[0,0,1],[1,1,1],[1,0,1],[0,1,1]])
-    training_set_outputs = array([[0,1,1]]).T
+    training_set_outputs = array([[0,1,1,0]]).T
 
     neural_network.train(training_set_inputs,training_set_outputs,10)
 
